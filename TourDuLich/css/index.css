@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden; /* Clear floating elements */
+}
+header h1 {
+    margin: 0;
+    float: left; /* Đưa h1 sang bên trái */
+}
+nav {
+    float: right; /* Đưa nav sang bên phải */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Loại bỏ margin mặc định */
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Tạo hiệu ứng màu chuyển đổi */
+}
+nav ul li a:hover {
+    color:#007bff; /* Thay đổi màu khi di chuột qua */
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+}
+section h2 {
+    color: #333;
+}
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+section ul li {
+    margin-bottom: 20px;
+    text-align: center; /* Canh giữa nội dung */
+}
+section ul li img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Tạo khoảng cách dưới ảnh */
+}
+section ul li p {
+    margin-bottom: 10px; /* Tạo khoảng cách dưới giá */
+}
+.description {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
+}
